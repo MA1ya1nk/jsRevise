@@ -27,5 +27,5 @@ console.log(1+2+"2")  return 32
 console.log("1"+2+2)  return 122
 console.log(+true) return 1      
 console.log(true+) return error      
-console.log(+"") return 0 coz "" is false      
+console.log(+"") return 0 coz "" is false
 */ 
