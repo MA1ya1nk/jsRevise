@@ -13,7 +13,7 @@ BigInt store big number
 
        NON PRIMITIVE
 dynamic type bcoz no need mention datatype in a variable
-datatype of function is FINCTION(or object function)
+datatype of function is FUNCTION(or object function)
 
         MEMORY
 stack(primitive) and heap(non primitive)
