@@ -64,5 +64,6 @@ const obj2 = {3: "c", 4: "d"};
 // console.log(Object.keys(obj1))  // also valid
 // console.log(Object.entries(obj1))  // [ [ '1', 'a' ], [ '2', 'b' ] ]
 
-console.log(obj1.hasOwnProperty(6))
-console.log(obj1.hasOwnProperty('1')) // return true if key exist else false
+// console.log(obj1.hasOwnProperty(6))
+// console.log(obj1.hasOwnProperty('1')) // return true if key exist else false
+

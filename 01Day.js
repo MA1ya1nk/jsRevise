@@ -3,7 +3,7 @@
 /*
   let name="Mayank"
   let rollNo=40
-  console.table([name,rollNo])  //  this print values in tabular form
+  console.table([name,rollNo])  //  this print values in tabular form(type object)
 */
 
 // tc39 and mdn are imp documentation
@@ -12,4 +12,3 @@
 // null => not 0 but empty     but object 
 
 // symbol is a datatype for UNIQUENESS
-

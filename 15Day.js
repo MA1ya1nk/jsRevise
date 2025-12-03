@@ -11,7 +11,7 @@ console.log(values)    print 5  6
 but const arr = [2,3,4,5,6]
 const values = arr.filter( (num) => {
     num>4
-})   return empty array [] bcoz if we use this notification so use   return before num>4(IMP)
+})   return empty array [] bcoz if we use this syntax so use   return before num>4(IMP)
 console.log(values)
 
                     //MAP

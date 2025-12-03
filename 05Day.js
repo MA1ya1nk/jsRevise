@@ -12,7 +12,7 @@ let myDate = new Date(2023, 0, 23, 5, 3)   return jan 23 2023 5:03:00
 let timeStamp = Date.now()   return time in millisecond  divide by 1000 for seconds
 timeStamp has lot of methosa like .getMonth,getHour etc
 
-   ARRAY
+   ARRAY(non primitive)
 it does shallow copy so any changes in array changes the actual array
 arr.includes(9)  returns true/false exist or not
 let arr = [1,2,3,4]
@@ -35,6 +35,3 @@ const new_hero=[...marvel, ...dc]    spread operator
 
 
 */
-let arr = [1,2,3,4,5]
-let arr2 = arr.pop()
-console.log(arr2)

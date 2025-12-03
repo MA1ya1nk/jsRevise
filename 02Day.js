@@ -10,7 +10,7 @@ let valInNumber=Number(val)
  if val="33abc"
  let valInNumber=Number(val)
  console.log(valInNumber)    => return NaN
- if val=NULL   => return 0 after conversion
+ if val=null   => return 0 after conversion
  if val==undefined   => return NaN not a number
  
            FOR BOOL
@@ -18,7 +18,11 @@ let valInNumber=Number(val)
  let covert = Boolean(isTrue);    =. return true
  "" => false
  "mak" => true
-
+ for null return false
+ for undefined return false
+ let arr = {}  return true coz object is true
+ let arr = [] return true coz array is true
+ 
         FOT STRING
 33  => 33 for String 33
 
@@ -29,3 +33,5 @@ console.log(+true) return 1
 console.log(true+) return error      
 console.log(+"") return 0 coz "" is false
 */ 
+let arr=[]
+console.log(Boolean(arr))

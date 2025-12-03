@@ -6,10 +6,13 @@ null>0 false
 null == 0 false  always avoid such kind of conversions also undefines == 0 etc.
 null>=0 true
           
-       PRIMITIVE DATATYPE(7)
-Symbol is a datatype used to make unique 
+       PRIMITIVE DATATYPE(7) {null, undefined, number, string, boolean, bigint,symbol}
+Symbol is a datatype used to make unique and value can't be changes also use for hiding properties
 eg  const id = Symbol('123')
 BigInt store big number
+let big = 123456789012345678901234567890n;
+console.log(big);
+here ending n says it is bigint
 
        NON PRIMITIVE
 dynamic type bcoz no need mention datatype in a variable

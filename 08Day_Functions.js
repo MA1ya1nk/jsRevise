@@ -35,6 +35,6 @@ const obj = {
     name: "mayank",
     age: 21
 }
-console.log(check(obj))  // name is mayank and age is 21
+check(obj)  // name is mayank and age is 21
 
 // what if age is not present there so undefined print that'why type safety need to check

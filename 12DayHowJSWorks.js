@@ -1,11 +1,12 @@
 /*
               JAVASCRIPT EXECUTION CONTEXT(JS CODE EXECUTE KAISE HOTA H)
 1. sabse pehle global execution context banta h jo "this" keyword mai hota h (for browser this contain window object
+  execution context ofnode and browser is diiferent(js is single threded)
 2. function execution context
 3. eval execution context(good but not study yet)
 
 
-   phase 
+   phases (two phase) 
 memory creation phase(variables ke liye space allocate hoti h)
 execution phase(operations perform like +,-etc)
     
@@ -26,17 +27,18 @@ let result2 = addnum(10,2)
 2. Memory phase
   val1->undefined
   val2->undefined
-  addnum-> defination(whole func define)
+  addnum-> defination(whole func present in it)
   result1->undefined
   result2 -> undefined
-  3. execution phase
+3. execution phase
 val1->10 value allocate
 val2->5
-function  create a new environment similar to above all steps global execution and memory phase occur again
+result1 create a new environment similar to above all steps global execution and memory phase occur again
+jitni baar function execute hote hain utni baar naya box create hota h called new exectional context
 {
     1. Memory phase
-     val1->undefined
-     val2->undefined
+     num1->undefined
+     num2->undefined
      total->undefined 
     2.  execution phase
     num1-10

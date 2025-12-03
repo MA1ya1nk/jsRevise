@@ -11,7 +11,7 @@ global var not pollute local
 
 // if you define two function like this so use ";" otherwise through error
 
-((name) => {
-    console.log(`${name}`)  // return mak
-})('mak')
+((name,last) => {
+    console.log(`${name} ${last}`)  // return mak
+})('mak',"kumar")
 
