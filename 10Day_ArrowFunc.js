@@ -1,7 +1,7 @@
 const users = {
      username: "mayank",
      welcomeMessage: function(){
-          console.log(`${username}, welcome to website`)  // "this" refer to current obj so all values of current object can be accessed using this keyword
+          console.log(`${this.username}, welcome to website`)  // "this" refer to current obj so all values of current object can be accessed using this keyword
          // above if you direclt use ${username} it through error of username not defined  (IMP)
          console.log(this)  // { username: 'mayank', welcomeMessage: [Function: welcomeMessage] }
      }

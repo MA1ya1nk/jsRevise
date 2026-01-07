@@ -23,12 +23,12 @@ const newArr = myArr.join()   convert array into string
 splice actually changes the actual array but slice not
 
 
-int marvel = ["thor","hulk"]
-int dc = ["flash","superman"]
+let marvel = ["thor","hulk"]
+let dc = ["flash","superman"]
 marvel.push(dc)
 console.log(marvel)  nor marvel=["thor","hulk",["flash","superman"]]   actually put whole array bcoz array can take any data type
 
-const allHero=marvel.concat.dc  concat return new array
+const allHero=marvel.concat(dc)  concat return new array and add all elements of both array individually
 
 IMP
 const new_hero=[...marvel, ...dc]    spread operator

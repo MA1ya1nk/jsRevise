@@ -14,9 +14,12 @@ let big = 123456789012345678901234567890n;
 console.log(big);
 here ending n says it is bigint
 
-       NON PRIMITIVE
+       NON PRIMITIVE {object, array, function, date, map, set etc}
+       map=new Map()  set=new Set()
 dynamic type bcoz no need mention datatype in a variable
 datatype of function is FUNCTION(or object function)
+
+all non primitive datatype are mutable(changeable) but primitive are immutable(not changeable)
 
         MEMORY
 stack(primitive) and heap(non primitive)
@@ -30,3 +33,5 @@ userTwo.age=23       IMP
 console.log(userOne.age)  => 23 bcoz both are pointing to same memory in heap
 
 */
+// const arr=[1,34,"mak"]
+// console.log(typeof arr)  // remember in JS everything is object except primitive datatype

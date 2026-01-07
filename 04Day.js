@@ -38,3 +38,7 @@ Math.floor(Math.random() * (max-min+1) + min) // Math.random() * (max - min + 1)
 */ 
 let name= "mayank"
 console.log(name.indexOf('a'))
+const a="   mak   "
+const b = a.trim()
+console.log(b)
+console.log(a)
