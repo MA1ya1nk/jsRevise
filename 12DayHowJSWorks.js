@@ -1,7 +1,7 @@
 /*
               JAVASCRIPT EXECUTION CONTEXT(JS CODE EXECUTE KAISE HOTA H)
 1. sabse pehle global execution context banta h jo "this" keyword mai hota h (for browser this contain window object
-  execution context ofnode and browser is diiferent(js is single threded)
+  global execution context ofnode and browser is diiferent(js is single threded)
 2. function execution context
 3. eval execution context(good but not study yet)
 

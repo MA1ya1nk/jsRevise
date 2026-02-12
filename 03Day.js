@@ -19,7 +19,7 @@ here ending n says it is bigint
 dynamic type bcoz no need mention datatype in a variable
 datatype of function is FUNCTION(or object function)
 
-all non primitive datatype are mutable(changeable) but primitive are immutable(not changeable)
+all non primitive datatype are mutable(changeable) but primitive are immutable(not changeable) a new value is created and assigned in primitive
 
         MEMORY
 stack(primitive) and heap(non primitive)

@@ -29,7 +29,7 @@ Math.floor(4.1) return 4return lower value
 
 Math.random() return random value b/w 0 to 1 like 0.11111 also give 0 but not 1
 Math.random()*10+1 return b/w 1 to 10.99999
-Math.floor(Math.random()*10) return int
+Math.floor(Math.random()*10+1) return int
    
 IMP for val b/w 10 and 20
 const min=10

@@ -9,7 +9,7 @@ for (const i of arr) {
        //MAPS
 hold key value pair(order remail same and no duplicate values are its imp properties)
 const map = new Map()
-map.set('IN', "India")       
+map.set('IN', "India")
 map.set('US', "united states of america")
 
 for (const [key,val] of map) {  // destructuring of array
